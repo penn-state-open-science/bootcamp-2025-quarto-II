@@ -33,4 +33,56 @@ date: 2025-08-14
 
 ![<https://quarto.org/docs/publishing/>](include/img/quarto-publishing-2.png)
 
+## GitHub Pages
+
+![https://github.com](include/img/github.png)
+
+## Why GitHub?
+
+:::: {.columns}
+::: {.column width=50%}
+::: {.incremental}
+- Version control
+- Collaborate on code
+- Baked-in to RStudio (& Positron)
+:::
+
+:::
+::: {.column width=50%}
+![](include/img/rstudio-tools-version-control.png)
+:::
+::::
+
+---
+
+![<https://programmerhumor.io/programming-memes/version-control-can-anyone-relate/>](https://i.programmerhumor.io/2022/07/programmerhumor-io-programming-memes-45c1226714ffa67.jpg)
+
+## Version control "lingo"
+
+- "Repo/repository": Group of related files
+- A "commit": A specific saved version of your files
+- "Push": Save your commits to a shared workspace
+- "Pull": Retrieve commits from a shared workspace.
+- **NO AUTOMATIC SYNCHING**: You decide when to share/push or retrieve/pull
+
+## GitHub Pages
+
+- HTML outputs
+
+---
+
+![](https://quotefancy.com/media/wallpaper/3840x2160/9059967-Leon-Bambrick-Quote-There-are-2-hard-problems-in-computer-science-cache-invalidation.jpg)
+
+---
+
+![https://github.com/penn-state-open-science](include/img/github-penn-state-open-science.png)
+
+---
+
+{{< video include/vid/github-pages.mov >}}
+
+## Why names matter
+
+### https://penn-state-open-science.github.io/bootcamp-2025-quarto-II
+
 # Resources
