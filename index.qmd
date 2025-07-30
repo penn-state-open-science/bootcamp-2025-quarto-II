@@ -83,6 +83,8 @@ date: 2025-08-14
 
 ## Why names matter
 
-### https://penn-state-open-science.github.io/bootcamp-2025-quarto-II
+![https://penn-state-open-science.github.io/bootcamp-2025-quarto-II](include/img/rendered-site-on-github.png)
+
+https://penn-state-open-science.github.io/bootcamp-2025-quarto-II
 
 # Resources
