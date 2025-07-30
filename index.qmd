@@ -1,0 +1,36 @@
+---
+title: "Sharing your work"
+author: "Rick Gilmore & John West"
+date: 2025-08-14
+---
+
+# Overview
+
+## Questions
+
+- *Who* is your audience?
+- *What format* will you want to deliver to them?
+- *How* will you deliver it?
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+>The internet, a monumental creation of the modern era, has fundamentally reshaped the way we live, communicate, learn, work, and interact...
+
+-- Sarumathi T.
+:::
+::: {.column width=50%}
+![<https://www.linkedin.com/pulse/transformative-impact-internet-shaping-societies-empowering-t/>](include/img/web-tranformative.png)
+:::
+::::
+
+---
+
+![<https://quarto.org/docs/publishing/>](include/img/quarto-publishing-1.png)
+
+---
+
+![<https://quarto.org/docs/publishing/>](include/img/quarto-publishing-2.png)
+
+# Resources
