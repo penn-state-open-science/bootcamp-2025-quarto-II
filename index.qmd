@@ -68,6 +68,13 @@ date: 2025-08-14
 ## GitHub Pages
 
 - HTML outputs
+- Examples:
+  - Event sites
+  - Protocols
+  - Courses
+  - Slides
+  - Books
+  - Interactive apps
 
 ---
 
@@ -85,6 +92,14 @@ date: 2025-08-14
 
 ![https://penn-state-open-science.github.io/bootcamp-2025-quarto-II](include/img/rendered-site-on-github.png)
 
-https://penn-state-open-science.github.io/bootcamp-2025-quarto-II
+## See also...
+
+- [*Getting credit for sharing your data (Part I): Good enough data practices*](https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices)
+- [*Getting credit for sharing your data (Part II): Sharing your data*](https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-ii-sharing-your-data)
+- [*Getting credit for sharing your data (Part III): Data papers*](https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-iii-data-papers)
+
+## Next steps
+
+- Quarto hands-on sessions?
 
 # Resources

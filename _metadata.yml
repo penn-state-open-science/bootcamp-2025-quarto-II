@@ -12,6 +12,8 @@ format:
     chalkboard: true
     mainfont: roboto
     theme: [default, include/css/psu.sass]
+    link-external-icon: true
+    citations-hover: false
   pptx: default
 knitr:
   opts_chunk:

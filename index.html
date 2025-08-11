@@ -32,7 +32,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-b4b4648d29630c3912ca9dc8812ac561.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7ce884de2f161d3ab684e96ef6a7b39a.css">
   <link rel="stylesheet" href="include/css/psu.sass">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -220,6 +220,15 @@ Rick Gilmore &amp; John West
 <h2>GitHub Pages</h2>
 <ul>
 <li>HTML outputs</li>
+<li>Examples:
+<ul>
+<li>Event sites</li>
+<li>Protocols</li>
+<li>Courses</li>
+<li>Slides</li>
+<li>Books</li>
+<li>Interactive apps</li>
+</ul></li>
 </ul>
 </section>
 <section class="slide level2">
@@ -237,7 +246,20 @@ Rick Gilmore &amp; John West
 <section id="why-names-matter" class="slide level2">
 <h2>Why names matter</h2>
 
-<img data-src="include/img/rendered-site-on-github.png" class="r-stretch quarto-figure-center"><p class="caption">https://penn-state-open-science.github.io/bootcamp-2025-quarto-II</p><p>https://penn-state-open-science.github.io/bootcamp-2025-quarto-II</p>
+<img data-src="include/img/rendered-site-on-github.png" class="r-stretch quarto-figure-center"><p class="caption">https://penn-state-open-science.github.io/bootcamp-2025-quarto-II</p></section>
+<section id="see-also" class="slide level2">
+<h2>See also…</h2>
+<ul>
+<li><a href="https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices"><em>Getting credit for sharing your data (Part I): Good enough data practices</em></a></li>
+<li><a href="https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-ii-sharing-your-data"><em>Getting credit for sharing your data (Part II): Sharing your data</em></a></li>
+<li><a href="https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-iii-data-papers"><em>Getting credit for sharing your data (Part III): Data papers</em></a></li>
+</ul>
+</section>
+<section id="next-steps" class="slide level2">
+<h2>Next steps</h2>
+<ul>
+<li>Quarto hands-on sessions?</li>
+</ul>
 </section></section>
 <section id="resources" class="title-slide slide level1 center">
 <h1>Resources</h1>
@@ -562,6 +584,8 @@ Rick Gilmore &amp; John West
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
+              // default icon
+              link.classList.add("external");
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -606,43 +630,6 @@ Rick Gilmore &amp; John West
             return "";
           }
         });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
-              }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
-          });
-        }
       }
     });
     </script>
