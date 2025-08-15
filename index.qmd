@@ -98,8 +98,27 @@ date: 2025-08-14
 - [*Getting credit for sharing your data (Part II): Sharing your data*](https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-ii-sharing-your-data)
 - [*Getting credit for sharing your data (Part III): Data papers*](https://penn-state-open-science.github.io/bootcamp-2025/sessions.html#getting-credit-for-sharing-your-data-part-iii-data-papers)
 
+## My Quarto-folio
+
+- [PSYCH 490](https://psu-psychology.github.io/psych-490-data-viz-2025-spring/): The Psychology of Data Visualization
+- [PSYCH 490](https://psu-psychology.github.io/psych-490-reproducibility-2024-fall/): The Reproducibility Crisis in Science
+- Open Scholarship Initiative [website](https://penn-state-open-science.github.io/)
+- [Poster](https://github.com/gilmore-lab/vss-2025-poster/blob/main/vss-2025-poster.pdf) presented at the Vision Sciences Society 2025 meeting; [repo](https://github.com/gilmore-lab/vss-2025-poster)
+
 ## Next steps
 
-- Quarto hands-on sessions?
+- What do you want to build?
 
 # Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2025.5.1.513.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework. 
+The HTML slides are hosted in a [GitHub repo](https://github.com/penn-state-open-science/bootcamp-2025-quarto-II) and served by GitHub pages: 
+<https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/>
+
+## References
